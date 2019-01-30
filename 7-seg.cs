@@ -42,7 +42,7 @@ namespace HelloWorld
         {
           int pin= 2;
           for (int j=0; j < 7; j++) {
-            Console.Write("PIN:"+ pin +" "+"Value: " +Globals.num_array[number,j]+" ");
+            Console.Write("PIN:"+ pin +" ""Value: " +Globals.num_array[number,j]+" ");
 
            pin++;
           }
